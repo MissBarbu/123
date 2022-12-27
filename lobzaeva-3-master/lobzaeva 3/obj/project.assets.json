@@ -1,0 +1,119 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "LibMas/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/LibMas.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibMas.dll": {}
+        }
+      },
+      "Lib_7/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "LibMas": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Lib_7.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lib_7.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LibMas/1.0.0": {
+      "type": "project",
+      "path": "../LibMas/LibMas.csproj",
+      "msbuildProject": "../LibMas/LibMas.csproj"
+    },
+    "Lib_7/1.0.0": {
+      "type": "project",
+      "path": "../Lib_7/Lib_7.csproj",
+      "msbuildProject": "../Lib_7/Lib_7.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "LibMas >= 1.0.0",
+      "Lib_7 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ИСП-41\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\ИСП-41\\Desktop\\lobzaeva-3\\lobzaeva-3-master\\lobzaeva 3\\lobzaeva 3.csproj",
+      "projectName": "lobzaeva 3",
+      "projectPath": "C:\\Users\\ИСП-41\\Desktop\\lobzaeva-3\\lobzaeva-3-master\\lobzaeva 3\\lobzaeva 3.csproj",
+      "packagesPath": "C:\\Users\\ИСП-41\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ИСП-41\\Desktop\\lobzaeva-3\\lobzaeva-3-master\\lobzaeva 3\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\ИСП-41\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\ИСП-41\\Desktop\\lobzaeva-3\\lobzaeva-3-master\\LibMas\\LibMas.csproj": {
+              "projectPath": "C:\\Users\\ИСП-41\\Desktop\\lobzaeva-3\\lobzaeva-3-master\\LibMas\\LibMas.csproj"
+            },
+            "C:\\Users\\ИСП-41\\Desktop\\lobzaeva-3\\lobzaeva-3-master\\Lib_7\\Lib_7.csproj": {
+              "projectPath": "C:\\Users\\ИСП-41\\Desktop\\lobzaeva-3\\lobzaeva-3-master\\Lib_7\\Lib_7.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
